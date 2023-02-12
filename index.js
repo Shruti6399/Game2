@@ -40,26 +40,26 @@ function playSound(name){
     switch(name){
         case ("red"):
             $("#red").fadeIn(100).fadeOut(100).fadeIn(100);
-            var r = new Audio("sounds/red.mp3")
+            var r = new Audio("red.mp3")
             r.play();
             break;
         case("blue"):
             $("#blue").fadeIn(100).fadeOut(100).fadeIn(100);
-            var b= new Audio("sounds/blue.mp3");
+            var b= new Audio("blue.mp3");
             b.play();
             break;
         case("green"):
             $("#green").fadeIn(100).fadeOut(100).fadeIn(100);
-            var g = new Audio("sounds/green.mp3");
+            var g = new Audio("green.mp3");
             g.play();
             break;
         case("yellow"):
             $("#yellow").fadeIn(100).fadeOut(100).fadeIn(100);
-            var y =new Audio("sounds/yellow.mp3");
+            var y =new Audio("yellow.mp3");
             y.play()
             break;
         default:
-            // var w = new Audio("sounds/wrong.mp3");
+            // var w = new Audio("wrong.mp3");
             // w.play();
     }
 }
@@ -91,7 +91,7 @@ function checkAnswer(currentLevel){
     else{
         $("body").addClass("game-over")
         $("h1").text("Game Over, Press Any Key to Restart")
-        var w = new Audio("sounds/wrong.mp3");
+        var w = new Audio("wrong.mp3");
         w.play();
         setTimeout(function(){$("body").removeClass("game-over");},200)
         startover();
