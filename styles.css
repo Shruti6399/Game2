@@ -1,0 +1,51 @@
+body{
+    background-color:#A084DC;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Vast Shadow', cursive;
+    color: black;
+    font-size: 3rem;
+    padding: 0% 15%;
+    padding-bottom: 2%;
+    /* padding-top: 100px; */
+}
+
+.btn{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 10px solid black; 
+    display: inline-block;
+    margin: 25px;
+}
+
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;  
+}
+.blue{
+    background-color: blue; 
+}
+
+.container{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.pressed{
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+
+.game-over{
+    background-color: red;
+    opacity: 0.8;
+}
